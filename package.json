@@ -23,10 +23,6 @@
     "type": "git",
     "url": "https://github.com/ova2/gulp-print-spacesavings"
   },
-  "scripts": {
-    "test": "istanbul test _mocha --report html -- test/*.js --reporter spec",
-    "coveralls": "istanbul cover tape \"test/*.js\" --report lcovonly cat ./coverage/lcov.info | coveralls rm -rf ./coverage"
-  },
   "engines": {
     "node": ">=0.10.0"
   },
@@ -38,12 +34,6 @@
     "gulp-util": "~2.2.0"
   },
   "devDependencies": {
-    "mocha": "*",
-    "coveralls": "*",
-    "mocha-lcov-reporter": "*",
-    "istanbul": "*",
-    "event-stream": "*",
-    "should": "~2.1.0"
   },
   "engines": {
     "node": ">=0.8.0",
