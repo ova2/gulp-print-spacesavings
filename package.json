@@ -1,0 +1,53 @@
+{
+  "name": "gulp-print-spacesavings",
+  "version": "1.0.0",
+  "description": "Print space savings for any gulp compression plugin, such as gulp-uglify, gulp-clean-css, etc. See https://en.wikipedia.org/wiki/Data_compression_ratio for more information.",
+  "license": "Apache License 2.0",
+  "keywords": [
+    "gulpplugin",
+    "print",
+    "pretty print",
+    "spacesavings",
+    "space savings",
+    "compression",
+    "compression ratio",
+    "uglify",
+    "clean-css"
+  ],
+  "author": {
+    "name": "Oleg Varaksin",
+    "email": "ovaraksin@googlemail.com",
+    "url": "https://github.com/ova2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ova2/gulp-print-spacesavings"
+  },
+  "scripts": {
+    "test": "istanbul test _mocha --report html -- test/*.js --reporter spec",
+    "coveralls": "istanbul cover tape \"test/*.js\" --report lcovonly cat ./coverage/lcov.info | coveralls rm -rf ./coverage"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "through2": "*",
+    "gulp-util": "~2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "coveralls": "*",
+    "mocha-lcov-reporter": "*",
+    "istanbul": "*",
+    "event-stream": "*",
+    "should": "~2.1.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "license": "MIT"
+}

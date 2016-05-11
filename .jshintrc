@@ -1,0 +1,9 @@
+{
+  "node": true,
+  "strict": true,
+  "indent": 4,
+  "latedef": true,
+  "noarg": true,
+  "undef": true,
+  "unused": true
+}
