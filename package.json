@@ -34,10 +34,5 @@
     "gulp-util": "~2.2.0"
   },
   "devDependencies": {
-  },
-  "engines": {
-    "node": ">=0.8.0",
-    "npm": ">=1.2.10"
-  },
-  "license": "MIT"
+  }
 }
