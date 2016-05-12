@@ -59,7 +59,7 @@ module.exports.print = function () {
         // calculate current space savings
         var minifiedSize = file.contents.length;
         var spaceSaving = 1 - minifiedSize / file.originalSize;
-        spaceSaving = spaceSaving.toFixed(2) + "%";
+        spaceSaving = parseFloat(spaceSaving.toFixed(3)) + "%";
 
         // update total sizes
         totalOriginalSize = totalOriginalSize + file.originalSize;
@@ -92,7 +92,7 @@ module.exports.print = function () {
             if (fileCount > 1) {
                 // add footer with total sizes and space savings if there are more than one file
                 var totalSpaceSaving = 1 - totalMinifiedSize / totalOriginalSize;
-                totalSpaceSaving = totalSpaceSaving.toFixed(2) + "%";
+                totalSpaceSaving = parseFloat(totalSpaceSaving.toFixed(3)) + "%";
                 sstable.push([
                     gutil.colors.cyan.bold('Total'),
                     gutil.colors.cyan.bold(prettyBytes(totalOriginalSize)),
