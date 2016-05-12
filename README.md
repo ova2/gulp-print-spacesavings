@@ -6,7 +6,7 @@ This Gulp plugin prints space savings for any Gulp compression plugins, like gul
 
 __Space Savings in % = 1 - Compressed Size / Uncompressed Size__
 
-See https://en.wikipedia.org/wiki/Data_compression_ratio for more information.
+See [Wikipedia][Wikipedia] for more information.
 
 ## Install
 
@@ -55,3 +55,5 @@ The output is displayed in the form of a table.
 ![Screenshot](https://raw.githubusercontent.com/ova2/gulp-print-spacesavings/master/space-savings-output.png)
 
 As you can see, the plugin also displays a footer with total uncompressed, compressed sizes and space savings if there are more than one file.
+
+[Wikipedia]: https://en.wikipedia.org/wiki/Data_compression_ratio
