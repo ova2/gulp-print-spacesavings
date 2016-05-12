@@ -1,6 +1,11 @@
 # gulp-print-spacesavings
-Print space savings for any gulp compression plugins, like gulp-uglify, gulp-clean-css, etc. Space saving is defined in % as
-
-__Space Saving = 1 - Compressed Size / Uncompressed Size__
 
 [![Build Status](https://api.travis-ci.org/ova2/gulp-print-spacesavings.svg)](https://travis-ci.org/ova2/gulp-print-spacesavings)
+
+This Gulp plugin prints space savings for any Gulp compression plugins, like gulp-uglify, gulp-clean-css, etc.
+Space savings is the reduction in size relative to the uncompressed size. It is defined in % as
+
+__Space Savings = 1 - Compressed Size / Uncompressed Size__
+
+See https://en.wikipedia.org/wiki/Data_compression_ratio for more information
+

@@ -1,8 +1,8 @@
 {
   "name": "gulp-print-spacesavings",
   "version": "1.0.0",
-  "description": "Print space savings for any gulp compression plugin, such as gulp-uglify, gulp-clean-css, etc. See https://en.wikipedia.org/wiki/Data_compression_ratio for more information.",
-  "license": "Apache License 2.0",
+  "description": "This Gulp plugin prints space savings for any Gulp compression plugin, such as gulp-uglify, gulp-clean-css, etc. Space savings is the reduction in size relative to the uncompressed size. It is defined in % as Space Savings = 1 - Compressed Size / Uncompressed Size (see https://en.wikipedia.org/wiki/Data_compression_ratio).",
+  "license": "Apache-2.0",
   "keywords": [
     "gulpplugin",
     "print",
@@ -30,9 +30,10 @@
     "index.js"
   ],
   "dependencies": {
-    "through2": "*",
-    "gulp-util": "~2.2.0"
-  },
-  "devDependencies": {
+    "cli-table2": "^0.2.0",
+    "colors": "^1.1.2",
+    "gulp-util": "~2.2.0",
+    "pretty-bytes": "^3.0.1",
+    "through2": "*"
   }
 }
