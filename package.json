@@ -11,6 +11,7 @@
     "space savings",
     "compression",
     "compression ratio",
+    "minifying",
     "uglify",
     "clean-css"
   ],
@@ -31,7 +32,6 @@
   ],
   "dependencies": {
     "cli-table2": "^0.2.0",
-    "colors": "^1.1.2",
     "gulp-util": "~2.2.0",
     "pretty-bytes": "^3.0.1",
     "through2": "*"
