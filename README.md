@@ -2,6 +2,8 @@
 
 [![npm version](https://badge.fury.io/js/gulp-print-spacesavings.svg)](https://badge.fury.io/js/gulp-print-spacesavings) [![Build Status](https://api.travis-ci.org/ova2/gulp-print-spacesavings.svg)](https://travis-ci.org/ova2/gulp-print-spacesavings)
 
+[![NPM](https://nodei.co/npm/gulp-print-spacesavings.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/gulp-print-spacesavings/)
+
 This Gulp plugin prints space savings for any Gulp compression plugins, like gulp-uglify, gulp-clean-css, etc. Space savings is the reduction in size relative to the uncompressed size.
 
 __Space Savings in % = 1 - Compressed Size / Uncompressed Size__
