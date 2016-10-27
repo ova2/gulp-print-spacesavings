@@ -58,7 +58,7 @@ module.exports.print = function () {
 
         // calculate current space savings
         var minifiedSize = file.contents.length;
-        var spaceSaving = 1 - minifiedSize / file.originalSize;
+        var spaceSaving = (1 - minifiedSize / file.originalSize)*100;
         spaceSaving = parseFloat(spaceSaving.toFixed(3)) + "%";
 
         // update total sizes
