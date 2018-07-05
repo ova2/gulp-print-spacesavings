@@ -1,7 +1,7 @@
 var through = require("through2");
 var gutil = require("gulp-util");
 var prettyBytes = require('pretty-bytes');
-var table = require('cli-table2');
+var table = require('cli-table3');
 
 module.exports.init = function () {
     "use strict";
